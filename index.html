@@ -194,6 +194,37 @@ var Fr={},Gr={};var Wr,Hr=function(){function t(t,e,n){var i=this;this._sleepAft
   </div>
 
   <div class="section">
+    <h2>配料表对照：营养表看不出来的三个差异</h2>
+    <p class="section-desc">两款罐体配料表逐行比对（2026-10 实拍）。<b>营养成分表里一模一样的地方，配料表能看出差别。</b></p>
+    <div class="scroll-x">
+    <table>
+      <tr><th>项目</th><th>珍护铂萃</th><th>星飞帆卓睿</th></tr>
+      <tr><td class="name">第一配料</td><td class="winA">生牛乳</td><td class="winB">生牛乳</td></tr>
+      <tr><td class="name">奶粉类原料</td><td>脱盐乳清粉、<b>脱脂奶粉</b></td><td class="winB"><b>无</b></td></tr>
+      <tr><td class="name">乳清蛋白来源</td><td>脱盐乳清粉（1 种）</td><td class="winB">水解 + 浓缩 + 普通乳清蛋白粉（3 种）</td></tr>
+      <tr><td class="name">食用油</td><td>OPO、葵花籽油、亚麻籽油</td><td class="winB">OPO、葵花籽油、<b>椰子油</b>、亚麻籽油</td></tr>
+      <tr><td class="name">DHA 来源</td><td>金枪鱼油（鱼油）</td><td class="winB">发酵法（微生物油脂）</td></tr>
+      <tr><td class="name">益生菌</td><td class="winA">HN019 + Bb-12（2 种）</td><td>Bb-12（1 种）</td></tr>
+      <tr><td class="name">核苷酸种类</td><td>4 种（缺肌苷酸二钠）</td><td class="winB">5 种（母源同种）</td></tr>
+      <tr><td class="name">钙源</td><td>碳酸钙、磷酸三钙</td><td class="winB">柠檬酸钙、磷酸氢钙</td></tr>
+      <tr><td class="name">过敏原</td><td>乳、<b>鱼</b></td><td class="winB">乳及乳制品</td></tr>
+    </table>
+    </div>
+
+    <div class="bust warn" style="margin-top:14px">
+      <div class="q">最值得说的一条：卓睿不含任何奶粉</div>
+      <div class="a">铂萃第二位是脱盐乳清粉、<b>第三位是脱脂奶粉</b>——这是还原奶成分。卓睿的配料表里没有任何全脂 / 脱脂奶粉，它用<b>水解乳清蛋白粉 + 浓缩乳清蛋白粉 + 乳清蛋白粉</b>三种形态把乳清蛋白补齐。<br>两者都必须补乳清蛋白（1 段要求 ≥60%），但「加乳粉」和「加乳清蛋白粉」不是一回事：前者含二次加工的奶粉，后者是乳清蛋白原料。<b>这一项，卓睿确实更「鲜」。</b></div>
+    </div>
+
+    <div class="bust myth">
+      <div class="q">第二值得说：铂萃的 DHA 是鱼油，过敏原里带「鱼」</div>
+      <div class="a">铂萃用的是「二十二碳六烯酸油脂（金枪鱼油）」，所以过敏原标注为<b>乳、鱼</b>；卓睿用的是「二十二碳六烯酸油脂（发酵法）」，过敏原只有<b>乳及乳制品</b>。<br>两者在 DHA 的吸收上没有实质差别，但对鱼类过敏的宝宝，这是一条硬差异——不是谁更好，是适用性不同。</div>
+    </div>
+
+    <div class="callout info"><b>还有两个小细节：</b>① 卓睿的核苷酸是 5 种（含肌苷酸二钠），铂萃是 4 种；但铂萃总量 35mg 高于卓睿 30mg——<b>种类和总量不是一个维度</b>；② 卓睿用柠檬酸钙（有机钙）+ 磷酸氢钙，铂萃用碳酸钙 + 磷酸三钙，前者溶解性略好，但两款钙总量都是 350mg。</div>
+  </div>
+
+  <div class="section">
     <h2>差异图：谁在哪一项上高多少</h2>
     <p class="section-desc">以两款中较低者为基准，算另一款高出多少百分比。<b>向右 = 铂萃更高，向左 = 卓睿更高。</b>高度不代表重要性，只代表差距幅度。</p>
     <div id="diffChart" class="bar-box"></div>
@@ -254,7 +285,7 @@ var Fr={},Gr={};var Wr,Hr=function(){function t(t,e,n){var i=this;this._sleepAft
     <h2>下单前核验清单</h2>
     <div class="pit"><div class="num">1</div><div><b>核注册号</b><p>铂萃 YP20230399、卓睿 YP20210033。到国家市场监督管理总局特殊食品信息查询平台核实，别只看商详页。</p></div></div>
     <div class="pit"><div class="num">2</div><div><b>对着罐体看三行</b><p>营养成分表里有没有 2'-FL、乳铁蛋白标多少、益生元是 GOS 单一种还是 GOS + FOS 双种。这三行最容易被营销话术模糊掉。</p></div></div>
-    <div class="pit"><div class="num">3</div><div><b>看配料表前三位</b><p>两款第一位都是生牛乳。铂萃实物配料表为「生牛乳、脱盐乳清粉、脱脂奶粉」，卓睿请对照自己罐体——第 2、3 位出现乳清粉 / 乳粉是 1 段常规做法，但乳粉排位越靠前，还原奶占比越高。</p></div></div>
+    <div class="pit"><div class="num">3</div><div><b>看配料表前三位</b><p>两款第一位都是生牛乳。铂萃第 2、3 位是脱盐乳清粉与脱脂奶粉；卓睿不含任何奶粉，用三种乳清蛋白粉把乳清蛋白补齐——<b>同样是「生牛乳入料」，含不含乳粉是两回事</b>。</p></div></div>
     <div class="pit"><div class="num">4</div><div><b>开罐看粉面、留住喷码</b><p>国产大批量生产线偶有异物个案。开罐在光下看粉面，异常先拍照录像再联系客服，罐底喷码和购买凭证都留着。</p></div></div>
   </div>
 
